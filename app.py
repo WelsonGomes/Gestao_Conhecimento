@@ -26,6 +26,7 @@ pg = st.navigation(
             st.Page(page='introduction/cubo.py', title='Cubo', icon=':material/help:'),
             st.Page(page='introduction/dashboard.py', title='Dashboard', icon=':material/help:'),
             st.Page(page='introduction/visualizacao.py', title='Visualização', icon=':material/help:'),
+            st.Page(page='introduction/relatorio_vendas_mensais.py', title='Relatório', icon=':material/help:')
         ],
     }
 )
