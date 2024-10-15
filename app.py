@@ -26,8 +26,17 @@ pg = st.navigation(
             st.Page(page='introduction/cubo.py', title='Cubo', icon=':material/help:'),
             st.Page(page='introduction/dashboard.py', title='Dashboard', icon=':material/help:'),
             st.Page(page='introduction/visualizacao.py', title='Visualização', icon=':material/help:'),
-            st.Page(page='introduction/relatorio_vendas_mensais.py', title='Relatório', icon=':material/help:')
         ],
+        "Visualização": [
+            st.Page(page='visualizacao/descritiva.py', title='Análise Descritiva',
+                    icon=':material/house:'),
+            st.Page(page='visualizacao/diagnostica.py', title='Análise Diagnóstica',
+                    icon=':material/house:'),
+            st.Page(page='visualizacao/preditiva.py', title='Análise Preditiva',
+                    icon=':material/house:'),
+            st.Page(page='visualizacao/prescritiva.py', title='Análise Prescritiva',
+                    icon=':material/house:'),
+        ]
     }
 )
 pg.run()
